@@ -5,10 +5,14 @@ import InputSample from "./App"
 import RenderSample from "./RenderSample"
 // import reportWebVitals from "./reportWebVitals"
 import EffectSample from "./EffectSample"
+import UseMemoSample from "./UseMemoSample"
+import UseStateSample from "./UseStateSample"
 
 const root = ReactDOM.createRoot(document.getElementById("root"))
-root.render(<EffectSample />)
+// root.render(<EffectSample />)
 // root.render(<RenderSample />)
+// root.render(<UseMemoSample />)
+root.render(<UseStateSample />)
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
