@@ -22,6 +22,7 @@ function EffectSample() {
 function List({ countList }) {
   useEffect(() => {
     console.log("mount || update")
+    return () => console.log("clean up!")
   })
 
   useEffect(() => {
